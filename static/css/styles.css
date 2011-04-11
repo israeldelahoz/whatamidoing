@@ -1,0 +1,35 @@
+body {
+  background-color:black;
+}
+
+#main-note { 
+  border:1px solid;
+  position:absolute;
+  border-radius:15px;
+  left:60px;
+  right:60px;
+  height:90%;
+  background: -moz-radial-gradient(50%, #cf9336 , #eaded8);
+  background: -webkit-gradient(radial, center center, 20, center center, 600, from(#cf9336), to(#eaded8));
+  }
+  
+#main-note h1 {
+  border-bottom: 1px solid;
+  position: relative;
+  text-align:center;
+  left: 5%;
+  width:90%;
+}
+
+#main-note content {
+  position: relative;
+  left:6%;
+}
+
+#main-note #config {
+  top:40px;
+  position: relative;
+  border-top: 1px solid;
+  left:5%;
+  width:90%;
+}
